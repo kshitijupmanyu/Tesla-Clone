@@ -1,0 +1,391 @@
+.order{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+.order--container{
+    display: flex;
+    width: 100%;
+}
+
+.order--image{
+    display: flex;
+    flex: 0.8;
+    overflow: hidden;
+    margin: 10px;
+}
+.order--image > img{
+   width: 100%;
+   object-fit: contain;
+}
+
+
+.order--info{
+    margin: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 0.1;
+    padding: 20px;
+}
+
+.order--priceSavings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 239, 239);
+    width: 100%;
+    padding: 0.5em;
+    margin: 40px 5px;
+    border-radius: 5px;
+    
+}
+
+.order--btn1{
+    font-size: 13px !important;
+    margin-right: 10px !important;
+    padding: 10px  !important;
+    text-transform: capitalize !important;
+    font-weight: 600 !important;
+}
+
+.order--btn2{
+    font-size: 13px !important;
+    margin-left: 10px !important;
+    padding: 10px  !important;
+    text-transform: capitalize !important;
+    font-weight: 600 !important;
+}
+
+.order--rangeSpeed{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    margin: 10px 0px;
+}
+
+.order--rangeSpeed > h2{
+    color: var(--background-color);
+    margin-bottom: 10px;
+}
+
+.order--rangeSpeed > p{
+    color: rgb(89, 89, 89);
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.order--option{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+    width: 100%;
+}
+
+.order--option > p{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.order--price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgb(89, 89, 89);
+    padding: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.order--otherInfo{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 30px;
+
+}
+
+.order--paint{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.order--paintContainer{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.order--paintContainer > div{
+    margin: 10px;
+}
+
+
+.order--paint1 > img{
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+.order--paint2 > img{
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+.order--paint3 > img{
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+.order--paint4 > img{
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+.order--paint5 > img{
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+.order--wheels{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.order--wheelContainer{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+
+.order--wheelContainer > div{
+    margin: 10px;
+    height: 100%;
+}
+
+.order--wheel1 > img{
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+.order--wheel2 > img{
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+.order--interior{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.order--interiorColorContainer{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.order--interiorColorContainer > div{
+    margin: 10px;
+    height: 100%;
+}
+
+.order--interiorColor1 > img{
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+.order--interiorColor2 > img{
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+.order--features{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.order--feature1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.order--feature1 > ul{
+    margin: 10px;
+    text-align: left;
+}
+
+.order--featureButton{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.order--featureButton > button{
+    margin: 0 10px;
+    text-transform: capitalize;
+    width: 150px;
+    height: 30px;
+    background-color: #3e6ae1 !important;
+}
+
+.order--feature2{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.order--feature2 > ul{
+    margin: 10px;
+    text-align: left;
+}
+
+.order--featureInfo{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.order--featureButton{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.order--featureButton > Button{
+    margin: 0 10px;
+    text-transform: capitalize;
+    width: 150px;
+    height: 30px;
+    background-color: #3e6ae1 !important;
+}
+
+.order--charging{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.order--chargingInfo{
+    display: flex;
+    width: 100%;
+    margin: 20px;
+}
+
+.order--chargingInfo > p{
+    text-align: left;
+}
+
+.order--infoIcon{
+    color: #3e6ae1 !important;
+    margin: 10px !important;
+
+}
+
+.order--charging1{
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.order--charging1 > input{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.order--charging1 > p{
+    margin-left: 50px;
+}
+
+.order--charging2{
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.order--charging2 > input{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.order--charging2 > p{
+    margin-left: 50px;
+}
+
+.order--confirmation{
+    display: flex;
+    flex-direction: column;
+    margin: 30px
+}
+
+.order--confirmation > h2{
+    margin-bottom: 20px;
+}
+
+.order--confirmation > p{
+    margin-bottom: 20px;
+}
+
+.order--confirmation > Button{
+    background-color: #3e6ae1;
+    text-transform: none;
+}
+
+.disabled{
+    border: none;
+    color: rgb(89, 89, 89);
+    background-color: rgb(245, 245, 245)
+}
+
+.tab {
+    background: none;
+    border: none;
+    width: 50%;
+    padding: 1em;
+    /* margin: 0 1em; */
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tab-active {
+    background-color: #1e62ea;
+    color: white;
+}
+
+.active--option{
+    border: 3px solid #3e6ae1;
+}
+
+
+.active{
+    border: 3px solid #3e6ae1;
+    border-radius: 50%;
+}

@@ -1,0 +1,6 @@
+{
+    "prices" : [
+        {"id":"1", "modelName":"Model 3", "modelPrice": "$43,990", "modelSavings": "$31,790", "modelRange":"272mi", "modelTopSpeed":"140mph", "modelAcceleration":"5.8sec"},
+        {"id":"2","modelName":"Model 3 Performance", "modelPrice":"$53,990", "modelSavings": "$42,290", "modelRange":"315mi", "modelTopSpeed":"162mph", "modelAcceleration":"3.1sec"}
+    ]
+}

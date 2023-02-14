@@ -1,0 +1,58 @@
+.card{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.card--background{
+    width: 100%;
+}
+
+.card--text{
+    position: absolute;
+    width: 100%;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.card--text > h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.card--text > p{
+    font-size: 18px;
+}
+
+.card--btns{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-self: flex-end;
+    margin: 100px 0;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+}
+
+
+
+.card--btn1{
+    background-color: var(--background-color) !important;
+    color: var(--button-font) !important;
+    margin: 10px !important;
+    width: 20rem !important;
+    cursor: pointer !important;
+}
+
+.card--btn2{
+    background-color: var(--button-font) !important;
+    color: var(--background-color) !important;
+    margin: 10px !important;
+    width: 20rem !important;
+    cursor: pointer !important;
+}

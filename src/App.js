@@ -1,25 +1,35 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Navbar from './Navbar';
+import db from './firebase';
+
+import Order from './Order';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Landing from './Landing';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Landing />,
+  },
+  {
+    path: "/order",
+    element: <Order />,
+  },
+]);
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <Navbar />
+      <RouterProvider router={router}/>
     </div>
   );
 }
+
+
 
 export default App;
