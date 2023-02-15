@@ -12,13 +12,16 @@
 
 .order--image{
     display: flex;
-    flex: 0.8;
+    flex: 0.9;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     margin: 10px;
 }
 .order--image > img{
    width: 100%;
-   object-fit: contain;
+   height: max-content;
 }
 
 
